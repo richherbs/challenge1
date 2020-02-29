@@ -46,5 +46,13 @@ body{
     bottom: 80px;
     background-color: transparent;
     color: white;font-weight: 900;
+}
 
+.letter-mask{
+    padding-top: -3rem;
+    border-radius: 40% 0 0 0;
+    display: inline-block;
+    overflow: hidden;
+    font-size: 6rem;
+    font-weight: 900;
 }
