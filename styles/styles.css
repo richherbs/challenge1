@@ -1,4 +1,14 @@
-.logo{
+.logo-container{
+    display: block;
+}
+
+.logo-text{
+    font-family: 'ubuntu';
+    display: inline-block;
+}
+
+.logo-image{
+    display: inline-block;
     background: conic-gradient( lightblue, darkblue, green);
     border-radius: 50%;
     height: 100px;
