@@ -1,0 +1,8 @@
+.logo{
+    background: radial-gradient(circle at 100%, #333, #333 50%, #eee 75%, #333 75%);
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    position: relative;
+    top: 20rem;
+}
