@@ -1,5 +1,6 @@
 .logo{
-    background: radial-gradient(circle at 100%, #333, #333 50%, #eee 75%, #333 75%);
+    background: conic-gradient( lightblue, darkblue, green);
+    border-radius: 50%;
     height: 100px;
     width: 100px;
     margin: auto;
