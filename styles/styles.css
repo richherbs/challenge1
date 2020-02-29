@@ -11,11 +11,11 @@ body{
 
 .logo-text{
     margin: auto;
-    font-size: 3rem;
+    font-size: 4rem;
     text-align: right;
     position: relative;
-    bottom: 10px;
-    font-weight: 700;
+    bottom: 8px;
+    font-weight: 900;
     color: #b1b1b1;
 }
 
@@ -24,6 +24,7 @@ body{
     border-radius: 50%;
     height: 100px;
     width: 100px;
+    margin-left: 10px;
 }
 
 .logo-square{
