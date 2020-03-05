@@ -1,12 +1,12 @@
 body{
-    font-family: 'Muli';
+    font-family: "Muli";
 }
 
 .logo-container{
     display: flex;
     align-items: stretch;
     width: fit-content;
-    margin: auto;
+    margin: 20%;
 }
 
 .logo-text{
@@ -22,30 +22,18 @@ body{
 .logo-image{
     background: conic-gradient(#478ead  0deg 120deg, #315071 120deg 240deg, #9cb870 240deg 360deg);
     border-radius: 50%;
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     margin-left: 10px;
 }
 
 .logo-square{
     background-color: #e4793b;
-    height: 45%;
-    width: 40%;
-    position: relative;
-    top: 29%;
-    left: 33%;
-}
-
-.logo-a{
-    height: 100px;
-    width: 100px;
-    font-size: 9rem;
-    font-weight: bold;
-    position: relative;
-    right: 5px;
-    bottom: 80px;
-    background-color: transparent;
-    color: white;font-weight: 900;
+    height: 80px;
+    width: 65px;
+    position: absolute;
+    top: 27%;
+    left: 34%;
 }
 
 .letter-mask{
@@ -55,4 +43,38 @@ body{
     overflow: hidden;
     font-size: 6rem;
     font-weight: 900;
+}
+
+.a-mask{
+    background-color: transparent;
+    display: block;
+    height: 75px;
+    position: relative;
+    bottom: 62px;
+    right: 8px;
+}
+
+.dimensions-lines{
+    height: 30px;
+    width: 202px;
+    position: relative;
+    border-bottom: 42px solid white;
+}
+
+.a-1{
+    transform: rotate(67deg);
+    left: 71px;
+    top: 119px;
+}
+
+.a-2{
+    transform: rotate(113deg);
+    border-radius: 0 50px;
+    bottom: -45px;
+    right: 20px;
+}
+
+.a-3{
+    width: 115px;
+    left: 55px;
 }
